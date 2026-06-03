@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #005577;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card{
+    width: 90%;
+    max-width: 400px;
+    background: linear-gradient(135deg, #00a8b8, #0080ff); 
+    color: #fff;
+    border-radius: 30px;
+    padding: 40px 35px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    padding: 12px 20px;
+    border-radius: 50px; 
+    width: 80%;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    border-radius: 50%; 
+    width: 45px;
+    height: 45px;
+    background: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search button img{
+    width: 16px;
+}
+
+.weather-icon{
+    width: 140px;
+    margin-top: 30px;
+}
+
+.weather h1{
+    font-size: 65px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.weather h2{
+    font-size: 35px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 40px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.detail-icon {
+    width: 30px;
+    margin-right: 10px; 
+}
+
+.text-group p {
+    color: #fff;
+    font-size: 16px;
+}
+
+.humidity, .wind {
+    font-weight: 600;
+    font-size: 18px !important; 
+}
+
+.label {
+    font-size: 14px !important;
+    opacity: 0.8; 
+}
+.weather {
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    display: none;
+}
